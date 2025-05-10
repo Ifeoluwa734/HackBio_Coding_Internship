@@ -1,45 +1,34 @@
-# Person 1
-name1 = "Alo Yetunde"
-slack1 = "MaryAde364"
-email1 = "aloyetunde99@gmail.com"
-hobby1 = "Reading"
-country1 = "Nigeria"
-discipline1 = "Biochemistry"
-language1 = "Python"
+# Step 1: Organizing the information into lists
 
-# Person 2
-name2 = "Oluchi Bolanle"
-slack2 = "Oluchi Bolanle"
-email2 = "oluchibolanle@gmail.com"
-hobby2 = ""
-country2 = ""
-discipline2 = ""
-language2 = "Python"
+names = ["Alo Yetunde", "Oluchi Bolanle", "Adewunmi Ifeoluwa", "Adedayo Adeboye", "Omojuwa Iyinoluwa"]
+slack_usernames = ["MaryAde364", "Oluchi Bolanle", "Ifeoluwa", "Adedayo", "Iyinomj"]
+emails = ["aloyetunde99@gmail.com", "oluchibolanle@gmail.com", "iadewunmi39@gmail.com", "timsonad09@gmail.com", "iyinomojuwa1@gmail.com"]
+hobbies = ["Reading", "Journaling", "Reading", "Playing games", "Cooking"]
+countries = ["Nigeria", "Nigeria", "Nigeria", "Nigeria", "Nigeria"]
+disciplines = ["Biochemistry", "Biochemistry", "Physiology", "Pharmacy", "Biotechnology"]
+languages = ["Python", "Python", "Python", "Python", "Python"]
 
-# Person 3
-name3 = "Adewumi Ifeoluwa"
-slack3 = "Ifeoluwa"
-email3 = "iadewunmi39@gmail.com"
-hobby3 = ""
-country3 = ""
-discipline3 = ""
-language3 = "Python"
+# Step 2: Converting to a DataFrame-like structure 
+dataframe = f"""
+| Name                 | Slack Username   | Email                      | Hobby         | Country  | Discipline     | Language |
+|----------------------|-----------------|----------------------------|--------------|---------|--------------|----------|
+| {names[0]}  | {slack_usernames[0]}  | {emails[0]}  | {hobbies[0]}  | {countries[0]}  | {disciplines[0]}  | {languages[0]} |
+| {names[1]}  | {slack_usernames[1]}  | {emails[1]}  | {hobbies[1]}  | {countries[1]}  | {disciplines[1]}  | {languages[1]} |
+| {names[2]}  | {slack_usernames[2]}  | {emails[2]}  | {hobbies[2]}  | {countries[2]}  | {disciplines[2]}  | {languages[2]} |
+| {names[3]}  | {slack_usernames[3]}  | {emails[3]}  | {hobbies[3]}  | {countries[3]}  | {disciplines[3]}  | {languages[3]} |
+| {names[4]}  | {slack_usernames[4]}  | {emails[4]}  | {hobbies[4]}  | {countries[4]}  | {disciplines[4]}  | {languages[4]} |
+"""
 
-# Person 4
-name4 = "Adedayo adeboye"
-slack4 = "Adedayo"
-email4 = "timsonad09@gmail.com"
-hobby4 = "playing games"
-country4 = "Nigeria"
-discipline4 = "Pharmacy"
-language4 = "Python"
+# Step 3: Printing the structured information
+print(dataframe)
 
-# Person 5
-name5 = "Omojuwa Iyinoluwa"
-slack5 = "Iyinomj"
-email5 = "iyinomojuwa1@gmail.com"
-hobby5 = ""
-country5 = ""
-discipline5 = ""
-language5 = "Python"
+"""
+GitHub links of team members
+https://github.com/aloyetunde
+https://github.com/CreativeLuchi
+https://github.com/Ifeoluwa734
+https://github.com/TimsonTed
+https://github.com/IyinOmojuwa
+"""
 
+#Link to LinkedIn post: https://www.linkedin.com/posts/bolanleogungbemi_hackbio-bioinformaticsinternship-python-activity-7293795024301879296-GCIj?utm_source=share&utm_medium=member_ios
